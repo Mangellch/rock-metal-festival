@@ -27,6 +27,9 @@ function crearGaleria() {
         const imagen = document.createElement('IMG')
         imagen.src = `./assets/img/gallery/${i}.jpg`
         imagen.alt = 'Imagen Galería'
+        imagen.loading = 'lazy'
+        imagen.width = '300'
+        imagen.height = '200'
 
         //event handler
         imagen.onclick = () => {
