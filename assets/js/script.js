@@ -25,7 +25,7 @@ function crearGaleria() {
 
     for(let i = 1; i <= CANTIDAD_IMAGENES; i++) {
         const imagen = document.createElement('IMG')
-        imagen.src = `./assets/img/gallery/${i}.jpg`
+        imagen.src = `./assets/img/gallery/thumb/${i}.jpg`
         imagen.alt = 'Imagen Galería'
         imagen.loading = 'lazy'
         imagen.width = '300'
